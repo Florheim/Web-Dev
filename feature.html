@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/feature_style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Feature Products Details</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html">Feature</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Feature Presentation</h2>
+        <img src="feature-image.jpg" alt="Feature Image">
+    </section>
+
+    <section class="main-content">
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="assets/squidGame_jacket.jpg" alt="Product 1" width="200" height="200">
+                <p>Squid Game Jacket Player 456</p>
+                <p>Size: XL</p>
+                <p>Price: PHP 1000.00</p>
+                <button onclick="addToCart('Squid Game Jacket Player 456', 1000.00)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 2">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 2', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 3">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 3', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 4">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 4', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 5">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 5', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 6">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 6', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 7">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 7', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 8">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 8', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 9">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 9', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 10">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 10', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 11">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 11', 10)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 12">
+                <p>Product Details</p>
+                <p>Price: PHP00</p>
+                <button onclick="addToCart('Product 12', 10)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <img src="feature-logo.jpg" alt="Feature Logo">
+        <h3>Cart List</h3>
+        <ul id="cart-list">
+        </ul>
+        <p id="total-price">Total: ₱0</p>
+        <button onclick="removeFromCart()">Remove</button>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Prima Joy Songyo</p>
+    </footer>
+</body>
+</html>
